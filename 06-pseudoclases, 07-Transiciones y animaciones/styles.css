@@ -1,0 +1,79 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+ul li:first-child{
+    color: blueviolet;
+    font-weight: bold;
+
+}
+
+ul li:nth-child(2){
+
+    color: coral;
+}
+
+#enlace{
+    font-size: 30px;
+    color: cornflowerblue;
+    display: inline-block;
+    background-color:gray ;
+
+}
+
+#enlace:link{
+    color: crimson;
+}
+
+#enlace:visited{
+    color: gold;
+}
+
+#enlace:hover{
+    
+    color: hotpink;
+    transition: 3s;
+}
+
+input[type="text"]{
+    
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus{
+    background-color: #ccc;
+    border-radius: 10%;
+    
+}
+
+#boton{
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: dodgerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+#boton:hover{
+    background-color: red;
+    transition: background-color 1s, border-radius 1s;
+    border-radius: 8px;
+}
+
+#caja{
+
+    width: 300px;
+    height: 300px;
+    background-color: salmon;
+    
+}

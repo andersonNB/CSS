@@ -1,0 +1,38 @@
+html{
+    border: 1px solid rebeccapurple;
+}
+
+body{
+    border: 1px dashed red;
+    background-color: burlywood;
+    padding: 40px;
+}
+
+#cajas{
+    border: 1px solid blue;
+    max-width: 1000px;
+    
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.caja{
+    border: 1px dashed black;
+    width: 250px;
+    height: 250px;
+    background-color: lightblue;
+    margin: 15px;
+    padding: 16px;
+    float: left;
+}
+
+p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    line-height: 230px;
+}

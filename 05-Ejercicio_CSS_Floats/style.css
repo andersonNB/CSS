@@ -1,0 +1,150 @@
+html{
+    border: 1px solid violet;
+    background-image: url("../img/support-d63ae08baf517425864ddc020a5871d5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#contenedor_general{
+    width: 1200px;
+    border: 1px solid black;
+    margin: 0px auto;
+    /* background-color: blueviolet; */
+}
+
+.cabecera{
+   
+    border: 1px solid red;
+    /* background-color: #ccc; */
+    
+}
+.cabecera h1{
+   
+    border: 1px solid hotpink;
+    background-color: wheat;
+    text-align: center;
+    position: sticky;
+    
+}
+
+.menu_navegacion{
+    background-color: chartreuse;
+    
+    
+}
+
+.menu_navegacion ul li {
+    float: left;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    
+    background-color: teal;
+   
+}
+
+.menu_navegacion li > a {
+
+    
+    text-decoration: none;
+    margin: 15px;
+    color: #444;
+    
+}
+
+
+.menu_navegacion li:hover{
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+
+
+.menu_navegacion li:hover a{
+    color: white;
+}
+
+
+
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.barra_lateral{
+    /* background-color: thistle; */
+    
+    float: right;
+    width: 30%;
+    height: 900px;
+   
+    
+}
+
+.seccion{
+    border: 1px dashed firebrick;
+    /* background-color: #7fffd4; */
+    width: 70%;
+    
+}
+
+.seccion h1{
+    text-align: center;
+    background-color: yellowgreen;
+    text-shadow: 10px 0px 9px grey;
+    
+}
+
+.minute{
+    position: fixed;
+    width: 120px;
+    left: 4px;
+    
+}
+
+
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: cadetblue;
+    border: 1px solid salmon;
+    color: honeydew;
+    text-transform: uppercase;
+    margin: 20px;
+    margin-left: 70px;
+    float: left;
+    text-align: center;
+    line-height: 282px;
+    box-shadow: 5px 7px 3px grey;
+    
+    
+}
+
+.figura{
+    border-radius: 3000px 100px;
+}
+
+.borde-redondo{
+    border-radius: 10em;
+}
+
+.sombra-inset{
+
+    box-shadow: 0px 0px 12px black inset;
+    
+}
+
+.footer{
+    
+    border: 1px solid greenyellow;
+    background-color: wheat;
+    text-align: center;
+    padding: 20px;
+}
