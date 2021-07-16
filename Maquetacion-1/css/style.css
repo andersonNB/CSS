@@ -1,0 +1,32 @@
+body{
+   background-image: url(../img/paven.png);
+   background-position: center;
+}
+
+#cabecera{
+
+    /* background-color: blanchedalmond; */
+    text-align: center;
+
+}
+
+#cabecera h1 a{
+    display: inline-block;
+    margin-bottom: 1em;
+    /* background-color: cadetblue; */
+    text-decoration: none;
+    color: #71B053;
+    text-shadow: 1px 1px 2px black;
+}
+
+#logotipo{
+    /* background-color: cadetblue; */
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+
+}
+
+#navegación{
+    background-color: black;
+}
