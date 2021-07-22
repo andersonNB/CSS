@@ -59,7 +59,7 @@ body{
 
   margin: 0px auto;
   width: 1130px;
-  background-color: aquamarine;
+  
   
   
 }
@@ -68,18 +68,78 @@ body{
 .navegacion__ul li {
    
    list-style: none;
-   
+   float: left;
+   line-height: 40px;
    
     
 }
 
+.navegacion__ul li:hover{
+    background-color: whitesmoke;
+    transition: background-color 1s;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+
+
 .navegacion__ul li a{
 
-    
-    
+    display: block;
+    /* background-color: #FFDE00; */
+    padding: 0px 20px;
     text-decoration: none;
-    
     color: azure;
     border-right: 1px solid white;
     
 }
+
+.navegacion__ul li a:hover{
+    color: black;
+    transition: color 1s;
+}
+
+.navegacion__ul li:first-child{
+    border-left: 1px solid white;
+}
+
+/* Menu desplegable */
+#navegacion ul > li > ul{
+
+    display: none;
+    position: absolute;
+    overflow: hidden;
+    /* color: whitesmoke; */
+    text-align: center;
+    padding: 0px;
+    width: 250px;
+    /* background-color: darkgoldenrod; */
+    box-shadow: 0px 2px 2px greenyellow;
+    z-index: 1;
+}
+
+#navegacion > ul > li:hover > ul{
+    display: block;
+    
+}
+
+#navegacion ul > li:hover > ul > li{
+    
+    width: 100%;
+    /* background-color: cornflowerblue; */
+    border-bottom: 1px solid #D6D6D6;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 13px;
+}
+
+#navegacion ul li:hover ul li:hover{
+    box-shadow: 0px 0px 6px inset;
+}
+
+#navegacion ul li:hover ul li a{
+    color: black;
+}
+
+
+
