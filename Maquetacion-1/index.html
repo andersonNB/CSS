@@ -44,7 +44,7 @@
     </nav>
 
     <div id="contenido">
-      <aside class="barra_lateral">
+      <aside class="barra__lateral">
         <h3>Entrar a la web</h3>
         <form action="">
           <div class="dashed">
@@ -52,7 +52,7 @@
             <input type="text" name="usuario" id="" />
 
             <label for="contraseña">Contraseña:</label>
-            <input type="text" name="contraseña" id="" />
+            <input type="password" name="contraseña" id="" />
             <input type="button" value="Entrar" />
 
             <a href="#">Zona de Alumnos</a>
@@ -61,16 +61,16 @@
           </div>
 
           <div class="dashed">
-            <h3>Aula Virtual 1</h3>
+            <h3 class="blue">Aula Virtual 1</h3>
             <label for="usuario">Nombre Usuario:</label>
             <input type="text" name="usuario" id="" />
 
             <label for="contraseña">Contraseña:</label>
-            <input type="text" name="contraseña" id="" />
+            <input type="password" name="contraseña" id="" />
             <input type="button" value="Entrar" />
           </div>
           <div class="dashed">
-            <h3>Aula Virtual 2</h3>
+            <h3 class="red">Aula Virtual 2</h3>
             <label for="usuario">Nombre Usuario:</label>
             <input type="text" name="usuario" id="" />
 
@@ -83,12 +83,20 @@
             <li><a href="#">Master en PHP Crud 2021</a></li>
             <li><a href="#">Master en Frameworks JS</a></li>
             <li><a href="#">Master en webs full-stack</a></li>
-            <li><a href="#">WEB</a></li>
+            <li><a href="https://htmlreference.io/" target="_blank">WEB</a></li>
           </ul>
         </form>
+
+        <div class="frase">
+          <b>Frase del día:</b>
+          <br />
+          Un acto de tus actividades debe ir ordenado y en secuencia
+          <a href="#">Leer más frases</a>
+        </div>
+        <!-- <div class="clear"></div> -->
       </aside>
 
-      <section>
+      <section id="contenido__principal">
         <h1>Noticias</h1>
       </section>
     </div>
