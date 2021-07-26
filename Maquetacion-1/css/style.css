@@ -51,7 +51,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     box-shadow: 0px 0px 2px grey;
-   
+    margin-bottom: 34px;
 
 }
 
@@ -139,7 +139,54 @@ body{
 
 #navegacion ul li:hover ul li a{
     color: black;
+    
 }
 
+/* Lateral */
 
+#contenido{
+   
+    
+    overflow: hidden;
+    width: 1250px;
+    min-height: 1100px;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+.barra_lateral{
+    float: left;
+    width: 210px;
+    height: 840px;
+    text-align: center;
+    border: 1px solid grey;
+    box-shadow: 0px 2px 3px #ccc;
+    
+    
+}
+
+.dashed{
+    border-bottom: 1px dashed grey;
+}
+
+input[type="button"]{
+   
+    display: block;
+    margin: 0px auto;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.barra_lateral a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 3px;
+    text-align: left;
+    background-color: #FFDE00;
+    
+}
+
+.barra_lateral h3{
+    
+}
 
