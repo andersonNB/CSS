@@ -1,0 +1,89 @@
+body{
+    background: url(../img/pattern.png) center;
+}
+
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url(fonts/TrebuchetMS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url(fonts/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "WebSymbolsRegular";
+    src: url(fonts/websymbols-regular-webfont.eot);
+    src: url(fonts/websymbols-regular-webfont.eot?#iefix) format('embedde-opentype'),
+         url(fonts/websymbols-regular-webfont.woff) format('woff'),
+         url(fonts/websymbols-regular-webfont.ttf) format('truetype'),
+         url(fonts/websymbols-regular-webfont.svg#WebSymbolsRegular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#cabecera{
+    background-color: #000000;
+    height: 71px;
+    width: 100%;
+    font-family: 'BebasNeue';
+
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+
+#cabecera a{
+    display: inline-block;
+    color: white;
+
+    font-size: 43px;
+    text-decoration: none;
+    background-color: rgb(55, 188, 249);
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    margin-top: 5px;
+    margin-left: 11rem;
+
+}
+
+.gear{
+    color: white;
+    font-family: 'WebSymbolsRegular';
+    padding-right: 10px;
+}
+
+.navegacion{
+    float: right;
+    color: white;
+
+}
+
+.navegacion ul li{
+
+    float: left;
+    list-style: none;
+    font-size: 28px;
+    
+    margin: 15px;
+    line-height: 1rem;
+
+
+}
+
+.navegacion ul{
+
+    text-align: right;
+    margin-right: 15rem;
+}
