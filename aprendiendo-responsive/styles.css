@@ -26,11 +26,11 @@ header{
 
 aside{
 
-    width: 25%;
+    width: 20%;
     min-height: 700px;
     float: left;
     background-color: orange;
-
+    
 }
 
 .clearfix{
@@ -39,12 +39,19 @@ aside{
 }
 
 #articulos{
-    width: 75%;
+    width: 80%;
     min-height: 900px;
     /* Este float para que quede al lado de la barra lateral */
     /* float: left; */
     background-color: palegreen;
     overflow: hidden;
+    
+    
+}
+
+
+#content{
+    width: 100%;
 }
 
 footer{
@@ -55,4 +62,72 @@ article{
     background-color: royalblue;
     width: 30%;
     height: 150px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (max-width: 806px){
+
+    article{
+        width: 40%;
+        background-color: rgb(119, 0, 255);
+        
+    }
+}
+
+@media (max-width: 605px){
+    article{
+        width: 80%;
+        background-color: rgba(255, 0, 234, 0.699);
+       
+    }
+
+    
+
+    h1{
+        
+        font-size: 25px;
+    }
+
+    aside{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    aside h2{
+        display: inline-block;
+        background-color: seagreen;
+        
+    }
+}
+
+@media(max-width:476px){
+    h1{
+        font-size: 20px;
+    }
+
+    aside{
+        float: none;
+        width: 100%;
+        min-height: 30px;
+    }
+
+    #articulos{
+        width: 100%;
+        
+    }
+    article{
+        width: 95%;
+        
+        background-color: rgba(255, 0, 98, 0.699);
+    }
+    
 }
