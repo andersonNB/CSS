@@ -94,4 +94,82 @@ body{
 }
 
 
+.wrap{
+    margin-top: 15px;
+    /* background-color: khaki; */
+    
+}
+
+#info{
+    
+    /* background-color: lightcoral; */
+    width: 80%;
+    margin: 0px auto;
+
+}
+
+#banner{
+    background: url("../img/bakbaner.png") center no-repeat;
+    height: 7.4rem;
+    width: 76rem;
+    line-height: 1.6rem;
+    margin: 0px auto;
+    color: white;
+    font-family: "BebasNeue";
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 10px solid white;
+    box-shadow: 2px 2px 5px grey;
+}
+
+#banner h1{
+    text-shadow: 1px 1px 5px black;
+}
+
+.icon{
+    font-family: 'WebSymbolsRegular';
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#cards{
+    
+    /* background-color: lightseagreen; */
+    
+    
+}
+
+.card{
+    float: left;
+    width: 13rem;
+    height: 19rem;
+    margin: 20px;
+    margin-top: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #ddd;
+    
+}
+
+.icon{
+    font-size: 50px;
+    text-align: center;
+}
+
+.category{
+    text-align: center;
+    
+    font-size: 23px;
+    color: #00538C;
+}
+
+.description{
+    text-align: center;
+    font-size: 18px;
+    color: #00538C;
+}
 
