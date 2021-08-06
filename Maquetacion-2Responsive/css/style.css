@@ -64,26 +64,34 @@ body{
     padding-right: 10px;
 }
 
-.navegacion{
+#navegacion{
     float: right;
     color: white;
 
 }
 
-.navegacion ul li{
+#navegacion ul li {
 
     float: left;
     list-style: none;
     font-size: 28px;
-    
-    margin: 15px;
+    padding: 5px;
+    margin: 10px;
     line-height: 1rem;
-
-
+    transition: background-color 200ms, color 200ms, transform 200ms;
 }
 
-.navegacion ul{
+#navegacion ul{
 
     text-align: right;
     margin-right: 15rem;
 }
+
+#navegacion ul li:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2,1.2);
+}
+
+
+
