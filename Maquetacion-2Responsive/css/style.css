@@ -96,7 +96,7 @@ body{
 
 .wrap{
     margin-top: 15px;
-    /* background-color: khaki; */
+    background-color: khaki;
     
 }
 
@@ -171,5 +171,9 @@ body{
     text-align: center;
     font-size: 18px;
     color: #00538C;
+}
+
+.prueba{
+    background-color: aquamarine;
 }
 
