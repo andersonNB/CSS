@@ -72,36 +72,54 @@
           <div class="clearfix"></div>
         </div>
       </section>
-
       <aside id="lateral">
         <h3>BUSCAR</h3>
         <div id="buscar">
           <form action="">
             <input type="text" />
-            <input type="button" value="L" class="icon" />
+            <input type="button" value="L" class="icon icon_lateral" />
           </form>
         </div>
         <h3>LOGIN</h3>
         <div id="login">
-          <form action="">
+          <form id="boxes" action="">
             <input type="text" />
-            <label class="icon" for="">U</label>
+            <label class="icon icon_lateral icon_position" for="">U</label>
             <input type="text" />
-            <label for="" class="icon">w</label>
+            <label for="" class="icon password icon_lateral icon_position"
+              >w</label
+            >
             <input type="submit" value="Entrar" />
             <input type="reset" value="Limpiar" />
-            <label for="">Registrarse aquí</label>
+            <a href="#">Registrarse aquí</a>
             <a href="#">¿Has olvidado tu contraseña?</a>
           </form>
         </div>
+
         <h3>REDES SOCIALES</h3>
-        <div class="icon prueba">t</div>
-        <div class="icon prueba">f</div>
-        <div class="icon prueba">m</div>
-        <div class="icon prueba">l</div>
+        <div id="boxes">
+          <div class="icon prueba">t</div>
+          <div class="icon prueba">f</div>
+          <div class="icon prueba">m</div>
+          <div class="icon prueba">l</div>
+        </div>
+
         <h3>COLABORADORES</h3>
-        <div id="colaboradores">si</div>
+        <div id="boxes" class="colaboradores">si</div>
       </aside>
     </section>
+
+    <h2 class="texto_articulo">Ultimos Articulos</h2>
+    <section id="articles">
+      <article>
+        <div class="data">
+          <span> Fecha: 12 dic </span>
+          <span> Categoría: Pruebas </span>
+        </div>
+      </article>
+    </section>
+
+    <div class="clearfix"></div>
+    <footer id="footer">&copy;This Progress</footer>
   </body>
 </html>

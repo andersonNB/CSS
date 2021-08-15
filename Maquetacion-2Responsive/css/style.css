@@ -98,6 +98,7 @@ body{
     margin-top: 15px;
     background-color: khaki;
     
+    
 }
 
 #info{
@@ -173,7 +174,124 @@ body{
     color: #00538C;
 }
 
+
+#lateral{
+    background-color: transparent;
+    float: right;
+    width: 19rem;
+    height: 68rem;
+    margin-right: 7rem;
+    font-family: 'TrebuchetMS';
+
+}
+
+aside h3{
+    background-color: #E5E5E5;
+    padding: 9px;
+    width: 80%;
+    letter-spacing: 3px;
+    box-shadow: 2px 3px 3px black, 2px 3px 3px black;
+
+}
+
 .prueba{
-    background-color: aquamarine;
+    
+    font-size: 2rem;
+    text-align: left;
+    margin: 1rem;
+}
+
+.icon_lateral{
+    position: absolute;
+    font-size: .8rem;
+    margin-left: -40px;
+    margin-top: 0.6rem;
+    height: 1.7rem;
+}
+
+.icon_position{
+    /* position: absolute; */
+    margin-left: 1.6rem;
+    margin-top: -2rem;
+}
+
+
+
+#boxes{
+    background-color: white;
+    width: 17rem;
+    height: 15rem;
+    box-shadow: 0px 1px 10px 1px  #ccc;
+    border-radius: 2px;
+}
+
+
+
+
+input[type="text"]{
+    
+    width: 15rem;
+    height: 1.3rem;
+    margin: 10px;
+    border-color: #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #ccc inset;
+    
+}
+
+input[type="text"]:focus{
+    background-color: rgb(255, 246, 246);
+    transition: background-color 300ms;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    background-color: #31A7D2;
+    color: whitesmoke;
+    width: 6rem;
+    height: 2rem;
+    margin: 1rem;
+    border: 1px solid #156785;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#login a{
+    
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 87%;
+    margin: 0px auto;
+}
+
+#login a:hover{
+    text-decoration: underline;
+    color: #2f79bc;
+}
+
+.texto_articulo{
+    background-color: #E5E5E5;
+    font-family: "BebasNeue";
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    width: 60%;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    margin-left: 9.4rem;
+    box-shadow: 2px 3px 3px black, 2px 3px 3px black;
+}
+
+#articles{
+
+    background-color: indianred;
+    width: 57%;
+    margin-left: 11rem;
+   
+}
+
+#footer{
+    text-align: center;
 }
 
