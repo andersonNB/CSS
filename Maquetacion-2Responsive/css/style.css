@@ -285,13 +285,70 @@ input[type="reset"]{
 
 #articles{
 
-    background-color: indianred;
+    /* background-color: indianred; */
     width: 57%;
     margin-left: 11rem;
+    min-height: 57rem;
+    /* float: right; */
    
 }
 
-#footer{
+article{
+    background-color: white;
+    margin: 2.5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 2px grey;
+}
+
+.data{
+    margin: 10px;
+    height: 9.3rem;
+    
+}
+
+.data a{
+    display: inline-block;
+    font-family: "BebasNeue";
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin: 10px;
+    font-size: 1.5rem;
+    color: #005394;
+}
+
+.data a:hover{
+    text-decoration: underline;
+}
+
+#fecha{
+    position: absolute;
+    margin-top: -11.3rem;
+    margin-left: 37rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 14rem;
     text-align: center;
+    background-color: #393D3F;
+    color: #f5f5f5;
+    border-radius: 0px 0px 0px 6%;
+}
+
+#blog{
+    font-family: "BebasNeue";
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #005394;
+    margin-left: 3rem;
+    width: 50rem;
+    height: 7.4rem;
+    margin-bottom: 2.5rem;
+}
+
+
+#footer{
+   
+    text-align: center;
+    background-color: cornflowerblue;
 }
 
