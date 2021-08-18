@@ -96,13 +96,13 @@ body{
 
 .wrap{
     margin-top: 15px;
-    background-color: khaki;
-    
-    
+    /* background-color: khaki; */
+
+
 }
 
 #info{
-    
+
     /* background-color: lightcoral; */
     width: 80%;
     margin: 0px auto;
@@ -138,10 +138,10 @@ body{
 }
 
 #cards{
-    
+
     /* background-color: lightseagreen; */
-    
-    
+
+
 }
 
 .card{
@@ -153,7 +153,7 @@ body{
     background-color: white;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 2px #ddd;
-    
+
 }
 
 .icon{
@@ -163,7 +163,7 @@ body{
 
 .category{
     text-align: center;
-    
+
     font-size: 23px;
     color: #00538C;
 }
@@ -195,7 +195,7 @@ aside h3{
 }
 
 .prueba{
-    
+
     font-size: 2rem;
     text-align: left;
     margin: 1rem;
@@ -229,14 +229,14 @@ aside h3{
 
 
 input[type="text"]{
-    
+
     width: 15rem;
     height: 1.3rem;
     margin: 10px;
     border-color: #ccc;
     border-radius: 5px;
     box-shadow: 1px 1px 4px #ccc inset;
-    
+
 }
 
 input[type="text"]:focus{
@@ -257,7 +257,7 @@ input[type="reset"]{
 }
 
 #login a{
-    
+
     display: block;
     text-decoration: none;
     color: black;
@@ -290,7 +290,7 @@ input[type="reset"]{
     margin-left: 11rem;
     min-height: 57rem;
     /* float: right; */
-   
+
 }
 
 article{
@@ -303,7 +303,7 @@ article{
 .data{
     margin: 10px;
     height: 9.3rem;
-    
+
 }
 
 .data a{
@@ -347,8 +347,104 @@ article{
 
 
 #footer{
-   
+
     text-align: center;
-    background-color: cornflowerblue;
+    background-color: #000000;
+
+
+}
+
+#footer h3 {
+
+    background-color: #E5E5E5;
+    width: 93%;
+    font-family: "BebasNeue";
+    font-size: 2rem;
+    padding: 9px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px black, 2px 3px 3px black;
+
+}
+
+.wrap-footer{
+
+    background-color: #000000;
+    width: 71rem;
+    margin: 0px auto;
+    height: 27rem;
+
+
+
+
+}
+
+.menu-footer{
+
+    /* background-color: goldenrod; */
+    /* display: inline-block; */
+    width: 20rem;
+    height: 20rem;
+    float: left;
+    margin: 1rem;
+    margin-left: 3rem;
+}
+
+#navegacion__footer{
+    /* background-color: salmon; */
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#navegacion__footer ul li{
+    margin: 1rem;
+    font-size: 25px;
+    color: white;
+}
+
+#navegacion__footer ul li a {
+    text-decoration: none;
+    color: #1BA8F9;
+
+}
+
+#navegacion__footer ul li a:hover{
+    text-decoration: underline;
+    color: #f5f5f5;
+}
+
+#location{
+    /* background-color: lightsalmon; */
+    /* display: inline-block; */
+    width: 20rem;
+    height: 20rem;
+    float: left;
+    margin: 1rem;
+
+
+}
+
+.imagenes-footer{
+
+    /* background-color: rgb(212, 80, 28); */
+    /* display: inline-block; */
+    width: 20rem;
+    height: 20rem;
+    float: left;
+    margin: 1rem;
+}
+
+.navegadores{
+    /* background-color: lime; */
+    width: 3rem;
+    height: 3rem;
+}
+
+#footer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    color: #f5f5f5;
+
 }
 
