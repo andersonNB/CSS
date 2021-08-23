@@ -58,10 +58,52 @@ body{
 
 }
 
+#cabecera a:hover{
+    border-radius: 2px;
+    color: black;
+    background-color: #ccc;
+    
+}
+
+
+#cabecera a:hover .gear{
+    animation: fromBellow 500ms linear;
+}
+
+@keyframes fromBellow{
+    0%{
+        transform: scaleY(0%);
+    }
+
+    50%{
+        transform: scaleY(200%);
+    }
+
+    100%{
+        transform: scaleY(0%);
+    }
+}
+
+
 .gear{
+    display: inline-block;
     color: white;
     font-family: 'WebSymbolsRegular';
     padding-right: 10px;
+    animation: rotar-logo 2s linear infinite;
+    
+}
+
+@keyframes rotar-logo {
+
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+    
 }
 
 #navegacion{
